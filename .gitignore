@@ -7,3 +7,10 @@ Release/
 Simulacion/bin/Debug
 Simulacion/obj
 Simulacion/bin
+/**/bin/**/*
+/./**/bin/**/*
+./**/bin/**/*
+**/bin/**/*
+*/bin/**/*
+bin/**/*
+/**/bin/* #and the others with just * at the end too
