@@ -1,0 +1,3 @@
+D:\tp codigo simulacion\Simulacion\obj\x86\Release\Simulacion.Form1.resources
+D:\tp codigo simulacion\Simulacion\obj\x86\Release\Simulacion.Properties.Resources.resources
+D:\tp codigo simulacion\Simulacion\obj\x86\Release\Simulacion.csproj.GenerateResource.Cache

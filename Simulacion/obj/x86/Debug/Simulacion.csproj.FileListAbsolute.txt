@@ -1,0 +1,14 @@
+D:\tp codigo simulacion\Simulacion\bin\Debug\Simulacion.exe
+D:\tp codigo simulacion\Simulacion\bin\Debug\Simulacion.exe.config
+D:\tp codigo simulacion\Simulacion\bin\Debug\Simulacion.pdb
+D:\tp codigo simulacion\Simulacion\bin\Debug\Entidades.dll
+D:\tp codigo simulacion\Simulacion\bin\Debug\EntidadesGenerales.dll
+D:\tp codigo simulacion\Simulacion\bin\Debug\Entidades.pdb
+D:\tp codigo simulacion\Simulacion\bin\Debug\EntidadesGenerales.pdb
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.csprojResolveAssemblyReference.cache
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.Form1.resources
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.Properties.Resources.resources
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.csproj.GenerateResource.Cache
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.exe
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.pdb
+D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.Charts.resources

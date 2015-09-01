@@ -1,0 +1,7 @@
+D:\tp codigo simulacion\Entidades\bin\Release\Entidades.dll
+D:\tp codigo simulacion\Entidades\bin\Release\Entidades.pdb
+D:\tp codigo simulacion\Entidades\bin\Release\EntidadesGenerales.dll
+D:\tp codigo simulacion\Entidades\bin\Release\EntidadesGenerales.pdb
+D:\tp codigo simulacion\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\tp codigo simulacion\Entidades\obj\Release\Entidades.dll
+D:\tp codigo simulacion\Entidades\obj\Release\Entidades.pdb

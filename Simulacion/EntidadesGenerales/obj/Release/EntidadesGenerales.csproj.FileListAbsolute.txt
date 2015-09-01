@@ -1,0 +1,4 @@
+D:\tp codigo simulacion\Simulacion\EntidadesGenerales\bin\Release\EntidadesGenerales.dll
+D:\tp codigo simulacion\Simulacion\EntidadesGenerales\bin\Release\EntidadesGenerales.pdb
+D:\tp codigo simulacion\Simulacion\EntidadesGenerales\obj\Release\EntidadesGenerales.dll
+D:\tp codigo simulacion\Simulacion\EntidadesGenerales\obj\Release\EntidadesGenerales.pdb
