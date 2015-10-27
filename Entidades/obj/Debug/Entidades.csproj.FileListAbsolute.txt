@@ -12,3 +12,10 @@ D:\tp codigo simulacion\Entidades\bin\Debug\EntidadesGenerales.pdb
 D:\tp codigo simulacion\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 D:\tp codigo simulacion\Entidades\obj\Debug\Entidades.dll
 D:\tp codigo simulacion\Entidades\obj\Debug\Entidades.pdb
+D:\GIT REPOS\Simulacion\Entidades\bin\Debug\Entidades.dll
+D:\GIT REPOS\Simulacion\Entidades\bin\Debug\Entidades.pdb
+D:\GIT REPOS\Simulacion\Entidades\bin\Debug\EntidadesGenerales.dll
+D:\GIT REPOS\Simulacion\Entidades\bin\Debug\EntidadesGenerales.pdb
+D:\GIT REPOS\Simulacion\Entidades\obj\Debug\ResolveAssemblyReference.cache
+D:\GIT REPOS\Simulacion\Entidades\obj\Debug\Entidades.dll
+D:\GIT REPOS\Simulacion\Entidades\obj\Debug\Entidades.pdb

@@ -12,3 +12,18 @@ D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.csproj.GenerateResou
 D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.exe
 D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.pdb
 D:\tp codigo simulacion\Simulacion\obj\x86\Debug\Simulacion.Charts.resources
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\Simulacion.exe.config
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\Simulacion.exe
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\Simulacion.pdb
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\Entidades.dll
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\EntidadesGenerales.dll
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\Entidades.pdb
+D:\GIT REPOS\Simulacion\Simulacion\bin\Debug\EntidadesGenerales.pdb
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\Simulacion.Charts.resources
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\Simulacion.Form1.resources
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\Simulacion.Properties.Resources.resources
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\Simulacion.exe
+D:\GIT REPOS\Simulacion\Simulacion\obj\x86\Debug\Simulacion.pdb

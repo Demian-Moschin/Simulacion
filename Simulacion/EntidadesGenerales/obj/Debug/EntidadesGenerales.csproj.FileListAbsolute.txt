@@ -6,3 +6,8 @@ D:\tp codigo simulacion\Simulacion\EntidadesGenerales\bin\Debug\EntidadesGeneral
 D:\tp codigo simulacion\Simulacion\EntidadesGenerales\bin\Debug\EntidadesGenerales.pdb
 D:\tp codigo simulacion\Simulacion\EntidadesGenerales\obj\Debug\EntidadesGenerales.dll
 D:\tp codigo simulacion\Simulacion\EntidadesGenerales\obj\Debug\EntidadesGenerales.pdb
+D:\GIT REPOS\Simulacion\Simulacion\EntidadesGenerales\bin\Debug\EntidadesGenerales.dll
+D:\GIT REPOS\Simulacion\Simulacion\EntidadesGenerales\bin\Debug\EntidadesGenerales.pdb
+D:\GIT REPOS\Simulacion\Simulacion\EntidadesGenerales\obj\Debug\ResolveAssemblyReference.cache
+D:\GIT REPOS\Simulacion\Simulacion\EntidadesGenerales\obj\Debug\EntidadesGenerales.dll
+D:\GIT REPOS\Simulacion\Simulacion\EntidadesGenerales\obj\Debug\EntidadesGenerales.pdb
