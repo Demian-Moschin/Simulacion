@@ -21,9 +21,6 @@ namespace Simulacion
 
         public  void cargarFormulario()
         {
-            
-
-          
             //Vertical bar chart
             //create another area and add it to the chart
             ChartArea area1 = new ChartArea("Area1");

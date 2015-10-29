@@ -101,6 +101,13 @@ namespace Entidades
             // Add the Column to the DataColumnCollection.
             tableSimulacion.Columns.Add(column);
 
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "colNroClientesEnSistema";
+            column.ReadOnly = true;
+            // Add the Column to the DataColumnCollection.
+            tableSimulacion.Columns.Add(column);
+
         }
 
         #endregion
@@ -292,6 +299,13 @@ namespace Entidades
         private  void  reportes(string tipoEvento)
         {
             try{
+                int clientesEnSistema = 0;
+                clientesEnSistema = this.Cola.ClientesEnCola.Count;
+                if (this.Servidor.ClienteEnServicio != null)
+                {
+                    clientesEnSistema = clientesEnSistema + 1;
+                }
+                
                 DataRow dr = tableSimulacion.NewRow();
                 dr["colReloj"] = this.reloj.ToString("####.000");
                 dr["colTUE"] = this.TUE.ToString("####.000");
@@ -299,8 +313,9 @@ namespace Entidades
                 dr["colTIOS"] = this.Servidor.TiempoInicioOcupacionServidor.ToString("####.0000");
                 dr["colAcumuladorDemoras"] =  this.acumuladorDemoras.ToString("####.0000");
                 dr["colClientesAtendidos"] = this.Servidor.ClientesAtendidos.ToString("####.0000");
-
                 dr["colTipoEvento"] = tipoEvento;
+                dr["colNroClientesEnSistema"] = clientesEnSistema.ToString();
+
                
                
                 tableSimulacion.Rows.Add(dr);

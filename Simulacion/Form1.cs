@@ -60,7 +60,7 @@ namespace Simulacion
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
                 frmCharts.xData.Add(Convert.ToDouble(row.Cells["colReloj"].Value));
-                frmCharts.yData.Add(Convert.ToDouble(row.Cells["colClientesAtendidos"].Value));
+                frmCharts.yData.Add(Convert.ToDouble(row.Cells["colClientesEnCola"].Value));
             }
             frmCharts.cargarFormulario();
             frmCharts.Show();
