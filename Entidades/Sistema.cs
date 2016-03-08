@@ -3,6 +3,7 @@ using System.Data;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq ;
+using System.IO;
 
 namespace Entidades
 {
@@ -119,7 +120,7 @@ namespace Entidades
 
             inicializarSimulacion();
 
-            while(this.clientesAtendidosEnSistema.Count   <  1000 )
+            while(this.clientesAtendidosEnSistema.Count   <  10000 )
             {
               
                 ejecutarRutinaTiming();
@@ -142,8 +143,59 @@ namespace Entidades
                 TUE = reloj; 
             }
 
-           
+            //this.calcularNumeroClientesMedioSistema(this.tablaDeReporte);
+            this.escribirArchivoTexto(this.tablaDeReporte);
 
+        }
+
+        private void escribirArchivoTexto(DataTable dataTable)
+        {
+            Stream strStreamw;
+            StreamWriter strStreamWriter;
+            string pathNow = DateTime.Now.ToString();
+            pathNow = pathNow.Replace("/", "-");
+            pathNow = pathNow.Replace(":", "-");
+            string filePath = "d:\\clientesEnSistema-" + pathNow +".txt";
+            strStreamw = File.OpenWrite(filePath);
+            strStreamWriter = new StreamWriter(strStreamw, System.Text.Encoding.UTF8);
+            strStreamWriter.WriteLine("RELOJ" + ";" + "CLIENTES EN SISTEMA");
+            foreach (DataRow item in dataTable.Rows)
+            {
+                strStreamWriter.WriteLine(item["colReloj"].ToString() + ";" + item["colNroClientesEnSistema"].ToString());
+            }//fin foreach
+
+            strStreamWriter.Close();
+
+            strStreamw.Close();
+        }
+
+        private Dictionary<double,int> calcularNumeroClientesMedioSistema(DataTable dataTable)
+        {
+            Dictionary<double, int > clientesPromedio = new Dictionary<double,int>();
+
+
+            foreach (DataRow item in dataTable.Rows)
+            {
+                //int  clientes = double.TryParse(item["colNroClientesEnSistema"]);
+                double tiempo;
+
+               if(!double.TryParse(item["colReloj"].ToString(),out tiempo))
+               {
+                   tiempo = 0; 
+               }
+
+               int clientes;
+               if (!Int32.TryParse(item["colNroClientesEnSistema"].ToString(), out clientes))
+               {
+                   clientes = 0;
+               }
+
+               clientesPromedio.Add(tiempo, clientes);
+                
+                
+            }//fin foreach
+
+            return clientesPromedio;
         }
 
        

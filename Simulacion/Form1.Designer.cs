@@ -33,6 +33,14 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.colReloj = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTipoEvento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTUE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colClientesEnCola = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNroClientesEnSistema = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colClientesAtendidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTIOS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAcumuladorDemoras = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,14 +55,6 @@
             this.medidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesAtendidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.colReloj = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTipoEvento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTUE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colClientesEnCola = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNroClientesEnSistema = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colClientesAtendidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTIOS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAcumuladorDemoras = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -82,6 +82,81 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dataGridView1.Size = new System.Drawing.Size(888, 185);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // colReloj
+            // 
+            this.colReloj.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colReloj.DataPropertyName = "colReloj";
+            this.colReloj.HeaderText = "RELOJ";
+            this.colReloj.Name = "colReloj";
+            this.colReloj.ReadOnly = true;
+            this.colReloj.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colReloj.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colTipoEvento
+            // 
+            this.colTipoEvento.DataPropertyName = "colTipoEvento";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colTipoEvento.DefaultCellStyle = dataGridViewCellStyle1;
+            this.colTipoEvento.HeaderText = "Tipo de evento";
+            this.colTipoEvento.Name = "colTipoEvento";
+            this.colTipoEvento.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colTUE
+            // 
+            this.colTUE.DataPropertyName = "colTUE";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colTUE.DefaultCellStyle = dataGridViewCellStyle2;
+            this.colTUE.HeaderText = "TUE";
+            this.colTUE.Name = "colTUE";
+            this.colTUE.ReadOnly = true;
+            this.colTUE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colClientesEnCola
+            // 
+            this.colClientesEnCola.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colClientesEnCola.DataPropertyName = "colClientesEnCola";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colClientesEnCola.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colClientesEnCola.HeaderText = "Clientes en cola";
+            this.colClientesEnCola.Name = "colClientesEnCola";
+            this.colClientesEnCola.ReadOnly = true;
+            this.colClientesEnCola.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colNroClientesEnSistema
+            // 
+            this.colNroClientesEnSistema.DataPropertyName = "colNroClientesEnSistema";
+            this.colNroClientesEnSistema.HeaderText = "ClientesEnSistema";
+            this.colNroClientesEnSistema.Name = "colNroClientesEnSistema";
+            // 
+            // colClientesAtendidos
+            // 
+            this.colClientesAtendidos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colClientesAtendidos.DataPropertyName = "colClientesAtendidos";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colClientesAtendidos.DefaultCellStyle = dataGridViewCellStyle4;
+            this.colClientesAtendidos.HeaderText = "ClientesAtendidos";
+            this.colClientesAtendidos.Name = "colClientesAtendidos";
+            this.colClientesAtendidos.ReadOnly = true;
+            this.colClientesAtendidos.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colTIOS
+            // 
+            this.colTIOS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTIOS.DataPropertyName = "colTIOS";
+            this.colTIOS.HeaderText = "TIOS";
+            this.colTIOS.Name = "colTIOS";
+            this.colTIOS.ReadOnly = true;
+            this.colTIOS.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colAcumuladorDemoras
+            // 
+            this.colAcumuladorDemoras.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colAcumuladorDemoras.DataPropertyName = "colAcumuladorDemoras";
+            this.colAcumuladorDemoras.HeaderText = "AcumuladorDemoras";
+            this.colAcumuladorDemoras.Name = "colAcumuladorDemoras";
+            this.colAcumuladorDemoras.ReadOnly = true;
+            this.colAcumuladorDemoras.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // btnReiniciar
             // 
@@ -208,6 +283,7 @@
             this.clientesAtendidosToolStripMenuItem.Name = "clientesAtendidosToolStripMenuItem";
             this.clientesAtendidosToolStripMenuItem.Size = new System.Drawing.Size(115, 20);
             this.clientesAtendidosToolStripMenuItem.Text = "ClientesAtendidos";
+            this.clientesAtendidosToolStripMenuItem.Click += new System.EventHandler(this.clientesAtendidosToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
@@ -228,81 +304,6 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reporte : medidas de la corrida";
-            // 
-            // colReloj
-            // 
-            this.colReloj.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colReloj.DataPropertyName = "colReloj";
-            this.colReloj.HeaderText = "RELOJ";
-            this.colReloj.Name = "colReloj";
-            this.colReloj.ReadOnly = true;
-            this.colReloj.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colReloj.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colTipoEvento
-            // 
-            this.colTipoEvento.DataPropertyName = "colTipoEvento";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colTipoEvento.DefaultCellStyle = dataGridViewCellStyle1;
-            this.colTipoEvento.HeaderText = "Tipo de evento";
-            this.colTipoEvento.Name = "colTipoEvento";
-            this.colTipoEvento.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colTUE
-            // 
-            this.colTUE.DataPropertyName = "colTUE";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colTUE.DefaultCellStyle = dataGridViewCellStyle2;
-            this.colTUE.HeaderText = "TUE";
-            this.colTUE.Name = "colTUE";
-            this.colTUE.ReadOnly = true;
-            this.colTUE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colClientesEnCola
-            // 
-            this.colClientesEnCola.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colClientesEnCola.DataPropertyName = "colClientesEnCola";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colClientesEnCola.DefaultCellStyle = dataGridViewCellStyle3;
-            this.colClientesEnCola.HeaderText = "Clientes en cola";
-            this.colClientesEnCola.Name = "colClientesEnCola";
-            this.colClientesEnCola.ReadOnly = true;
-            this.colClientesEnCola.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colNroClientesEnSistema
-            // 
-            this.colNroClientesEnSistema.DataPropertyName = "colNroClientesEnSistema";
-            this.colNroClientesEnSistema.HeaderText = "ClientesEnSistema";
-            this.colNroClientesEnSistema.Name = "colNroClientesEnSistema";
-            // 
-            // colClientesAtendidos
-            // 
-            this.colClientesAtendidos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colClientesAtendidos.DataPropertyName = "colClientesAtendidos";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colClientesAtendidos.DefaultCellStyle = dataGridViewCellStyle4;
-            this.colClientesAtendidos.HeaderText = "ClientesAtendidos";
-            this.colClientesAtendidos.Name = "colClientesAtendidos";
-            this.colClientesAtendidos.ReadOnly = true;
-            this.colClientesAtendidos.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colTIOS
-            // 
-            this.colTIOS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTIOS.DataPropertyName = "colTIOS";
-            this.colTIOS.HeaderText = "TIOS";
-            this.colTIOS.Name = "colTIOS";
-            this.colTIOS.ReadOnly = true;
-            this.colTIOS.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colAcumuladorDemoras
-            // 
-            this.colAcumuladorDemoras.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colAcumuladorDemoras.DataPropertyName = "colAcumuladorDemoras";
-            this.colAcumuladorDemoras.HeaderText = "AcumuladorDemoras";
-            this.colAcumuladorDemoras.Name = "colAcumuladorDemoras";
-            this.colAcumuladorDemoras.ReadOnly = true;
-            this.colAcumuladorDemoras.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Form1
             // 

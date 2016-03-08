@@ -82,6 +82,21 @@ namespace Simulacion
 
         }
 
+        private void clientesAtendidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Charts frmCharts = new Charts();
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                frmCharts.xData.Add(Convert.ToDouble(row.Cells["colReloj"].Value));
+                frmCharts.yData.Add(Convert.ToDouble(row.Cells["colAcumuladorDemoras"].Value));
+
+
+            }
+            frmCharts.cargarFormulario();
+            frmCharts.Show();
+
+        }
+
      
 
 
